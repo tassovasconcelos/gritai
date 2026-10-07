@@ -1578,8 +1578,14 @@ export type Database = {
           city: string | null
           company_id: string | null
           company_name: string | null
+          contact_email: string | null
+          contact_facebook_url: string | null
           contact_id: string | null
+          contact_instagram_url: string | null
+          contact_linkedin_url: string | null
           contact_name: string | null
+          contact_phone: string | null
+          contact_whatsapp: string | null
           contactability: number | null
           due_at: string | null
           engagement: number | null
