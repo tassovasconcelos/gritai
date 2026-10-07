@@ -1,4 +1,4 @@
-:root{
+@import "./styles/components.css";\n:root{
   font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
   color:#10233f;background:#f4f7fb;font-synthesis:none;
   --navy:#0a1930;--navy2:#10233f;--blue:#145edb;--orange:#ff9d2e;
@@ -22,5 +22,4 @@ h1,h2,h3,h4,p{margin-top:0}.eyebrow{font-size:11px;font-weight:900;letter-spacin
 .auth-card label{display:grid;gap:7px;font-size:12px;font-weight:800;color:#52627a}.auth-card input{width:100%;border:1px solid #d7e0ec;border-radius:12px;padding:13px 14px;outline:none}.auth-card input:focus{border-color:#8db3ea;box-shadow:0 0 0 3px #145edb15}
 .error,.notice{display:flex;align-items:center;gap:8px;padding:11px 13px;border-radius:11px;font-size:13px}.error{background:#fff0f0;color:#a52828}.notice{background:#eef5ff;color:#234d83;border:1px solid #d6e6fb}
 .workspace-empty .primary{margin-top:10px}
-@media(max-width:680px){.auth-card{padding:25px;border-radius:20px}.auth-card h1{font-size:28px}}
-@import "./styles/components.css";
+@media(max-width:680px){.auth-card{padding:25px;border-radius:20px}.auth-card h1{font-size:28px}}\n
